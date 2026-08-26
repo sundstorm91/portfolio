@@ -60,12 +60,21 @@ export function Projects() {
       repo: 'https://github.com/sundstorm91/react-native-learn',
     },
     {
-      title: 'Stellar Burger(Отработать весь бэкенд, фронт ок)',
+      title: 'Stellar Burger(Отработать весь бэкенд, фронт ок) - ждем ответ с эндопинтами',
       description: 'Fullstack-приложение для заказа бургеров с авторизацией и лентой заказов.',
       stack: 'React, Redux, Node.js, MongoDB, WebSocket',
       demo: 'https://sundstorm91.github.io/stellar-burgers-react/',
       repo: 'https://github.com/sundstorm91/stellar-burgers-react',
     },
+
+    {
+      title: 'e-commerce-App(online Store)+, но  есть косяк при регистрации в профиле в профиле mail - показывает пароль',
+      description: 'Полноценное SPA приложение на FakeApiStore c корзиной, каталогом товаров, оформлением заказов и авторизацией',
+      stack: 'React, Typescript, Zustand, Tailwind, React-Router, Fake ApiStore, Jest + RTL',
+      demo: 'https://sundstorm91.github.io/e-commerce-App/',
+      repo: 'https://github.com/sundstorm91/e-commerce-App',
+    },
+
     {
       title: 'TaskFlow',
       description: 'Менеджер задач с ролями, дедлайнами и фильтрацией. Next.js + Prisma.',
@@ -81,7 +90,7 @@ export function Projects() {
       repo: 'https://github.com/sundstorm91/spa-own',
     },
     {
-      title: 'Async Race',
+      title: 'Async Race(задеплоил, проверь дома с бэком)',
       description: 'Гоночное приложение с управлением машинами, победителями и таблицей рекордов.',
       stack: 'JS, CSS, REST API',
       demo: 'https://sundstorm91.github.io/async-race/',
