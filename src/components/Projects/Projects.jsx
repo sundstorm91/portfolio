@@ -60,9 +60,9 @@ export function Projects() {
       repo: 'https://github.com/sundstorm91/react-native-learn',
     },
     {
-      title: 'Stellar Burger(Отработать весь бэкенд, фронт ок)',
-      description: 'Fullstack-приложение для заказа бургеров с авторизацией и лентой заказов.',
-      stack: 'React, Redux, Node.js, MongoDB, WebSocket',
+      title: 'Stellar Burger+',
+      description: 'SPA приложение для заказа бургеров с авторизацией и лентой заказов. Реализовано на React + Typescript с использованием Redux, Websocket и внешнего API',
+      stack: 'React, Redux, WebSocket, CSS Modules, React-Router',
       demo: 'https://sundstorm91.github.io/stellar-burgers-react/',
       repo: 'https://github.com/sundstorm91/stellar-burgers-react',
     },
