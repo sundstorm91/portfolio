@@ -53,13 +53,6 @@ export function Projects() {
       repo: 'https://github.com/sundstorm91/virtual-keyboard-TS',
     },
     {
-      title: 'React Native Todo List App(Доделывай или скипай)',
-      description: 'Простое, но функциональное мобильное приложение для управления задачами (Todo List), реализованное на React Native. Проект создан в учебных целях для закрепления основ React Native.',
-      stack: 'React Native (Expo / React Native CLI), React',
-      demo: 'https://sundstorm91.github.io/react-native-learn/',
-      repo: 'https://github.com/sundstorm91/react-native-learn',
-    },
-    {
 
       title: 'Stellar Burger+',
       description: 'SPA приложение для заказа бургеров с авторизацией и лентой заказов. Реализовано на React + Typescript с использованием Redux, Websocket и внешнего API',
@@ -69,7 +62,7 @@ export function Projects() {
     },
 
     {
-      title: 'e-commerce-App(online Store)+, но  есть косяк при регистрации в профиле в профиле mail - показывает пароль',
+      title: 'e-commerce-App(online Store)+',
       description: 'Полноценное SPA приложение на FakeApiStore c корзиной, каталогом товаров, оформлением заказов и авторизацией',
       stack: 'React, Typescript, Zustand, Tailwind, React-Router, Fake ApiStore, Jest + RTL',
       demo: 'https://sundstorm91.github.io/e-commerce-App/',
@@ -77,10 +70,10 @@ export function Projects() {
     },
 
     {
-      title: 'TaskFlow',
+      title: 'TaskFlow+',
       description: 'Менеджер задач с ролями, дедлайнами и фильтрацией. Next.js + Prisma.',
       stack: 'Next.js, TypeScript, Prisma, SQLite',
-      demo: 'https://sundstorm91.github.io/taskflow/',
+      demo: null,
       repo: 'https://github.com/sundstorm91/taskflow',
     },
     {
@@ -91,7 +84,14 @@ export function Projects() {
       repo: 'https://github.com/sundstorm91/spa-own',
     },
     {
-      title: 'Async Race(задеплоил, проверь дома с бэком)',
+      title: 'Node-express-blog+',
+      description: 'Простой блог с CRUD-операциями, MVC-структурой, хранением данных в JSON-файле и шаблонизацией на EJS. Первый опыт работы с серверной разработкой.',
+      stack: 'Node.js + Express, EJS, Typescript, REST API',
+      demo: null,
+      repo: 'https://github.com/sundstorm91/node-express-blog',
+    },
+    {
+      title: 'Async Race(задеплоил - фронт, проверь дома с бэком)',
       description: 'Гоночное приложение с управлением машинами, победителями и таблицей рекордов.',
       stack: 'JS, CSS, REST API',
       demo: 'https://sundstorm91.github.io/async-race/',
@@ -111,9 +111,9 @@ export function Projects() {
               <p className="project-card__description">{project.description}</p>
               <p className="project-card__stack">🧩 {project.stack}</p>
               <div className="project-card__links">
-                <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-card__link demo">
+                {project.demo && <a href={project.demo} target="_blank" rel="noopener noreferrer" className="project-card__link demo">
                   🌐 Демо
-                </a>
+                </a>}
                 <a href={project.repo} target="_blank" rel="noopener noreferrer" className="project-card__link repo">
                   📂 Код
                 </a>
