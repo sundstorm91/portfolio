@@ -3,14 +3,14 @@ import './Projects.css';
 export function Projects() {
   const projects = [
     {
-      title: 'Minesweeper+',
+      title: 'Minesweeper',
       description: 'Классический сапёр на чистом JS с таймером и таблицей лидеров.',
       stack: 'JS, CSS, знакомство с Webpack',
       demo: 'https://sundstorm91.github.io/Minesweeper/',
       repo: 'https://github.com/sundstorm91/Minesweeper',
     },
     {
-      title: 'Momentum+',
+      title: 'Momentum',
       description: 'Персонализированный дашборд с часами, погодой, плеером и сменой фона.',
       stack: 'JS, CSS, OpenWeatherMap API',
       demo: 'https://sundstorm91.github.io/momentum/',
@@ -18,35 +18,35 @@ export function Projects() {
     },
 
     {
-      title: 'Plants+',
+      title: 'Plants',
       description: 'Первый проект в вёрстке: адаптивный лендинг с фильтрацией карточек, аккордеоном в ценах, дропдауном с контактами и бургер-меню. Написан на чистом JS без фреймворков.',
       stack: 'HTML, CSS, JS',
       demo: 'https://sundstorm91.github.io/Plants/',
       repo: 'https://github.com/sundstorm91/Plants',
     },
     {
-      title: 'Shelter+',
+      title: 'Shelter',
       description: 'Двухстраничный сайт (главная + страница питомцев) с каруселью, пагинацией, модальными окнами и бургер-меню. Первый опыт реализации сложного UI на чистом JS.',
       stack: 'HTML, CSS, JS, БЭМ',
       demo: 'https://sundstorm91.github.io/Shelter/',
       repo: 'https://github.com/sundstorm91/Shelter',
     },
     {
-      title: 'CSS Bayan+',
+      title: 'CSS Bayan',
       description: 'Аккордеон (раскрывающийся список) с мемами про разработку. Реализован полностью на CSS — без единой строчки JS. Тренировка селекторов, псевдоклассов, переходов и адаптива.',
       stack: 'HTML, SCSS',
       demo: 'https://sundstorm91.github.io/cssBayan/',
       repo: 'https://github.com/sundstorm91/cssBayan',
     },
     {
-      title: 'CSS Diner+',
+      title: 'CSS Diner',
       description: 'Интерактивная игра для изучения CSS-селекторов. 7 уровней, проверка ввода, подсветка элементов. Проект на TypeScript без фреймворков.',
       stack: 'TypeScript, SCSS',
       demo: 'https://sundstorm91.github.io/css-diner/',
       repo: 'https://github.com/sundstorm91/css-diner',
     },
     {
-      title: 'Виртуальная клавиатура+',
+      title: 'Виртуальная клавиатура',
       description: 'Виртуальная клавиатура на Typescript, HTML и CSS. Проект для отработки навыков работы с событиями',
       stack: 'TypeScript, Event Handlers, DOM manipulation',
       demo: 'https://sundstorm91.github.io/virtual-keyboard-TS/',
@@ -54,7 +54,7 @@ export function Projects() {
     },
     {
 
-      title: 'Stellar Burger+',
+      title: 'Stellar Burger',
       description: 'SPA приложение для заказа бургеров с авторизацией и лентой заказов. Реализовано на React + Typescript с использованием Redux, Websocket и внешнего API',
       stack: 'React, Redux, WebSocket, CSS Modules, React-Router',
       demo: 'https://sundstorm91.github.io/stellar-burgers-react/',
@@ -62,7 +62,7 @@ export function Projects() {
     },
 
     {
-      title: 'e-commerce-App(online Store)+',
+      title: 'e-commerce-App(online Store)',
       description: 'Полноценное SPA приложение на FakeApiStore c корзиной, каталогом товаров, оформлением заказов и авторизацией',
       stack: 'React, Typescript, Zustand, Tailwind, React-Router, Fake ApiStore, Jest + RTL',
       demo: 'https://sundstorm91.github.io/e-commerce-App/',
@@ -70,30 +70,30 @@ export function Projects() {
     },
 
     {
-      title: 'TaskFlow+',
+      title: 'TaskFlow',
       description: 'Менеджер задач с ролями, дедлайнами и фильтрацией. Next.js + Prisma.',
       stack: 'Next.js, TypeScript, Prisma, SQLite',
       demo: null,
       repo: 'https://github.com/sundstorm91/taskflow',
     },
     {
-      title: 'SPA на чистом JS+',
+      title: 'SPA на чистом JS',
       description: 'Одностраничное приложение с роутером, состоянием и компонентами без фреймворков.',
       stack: 'JS, TypeScript, Webpack',
       demo: 'https://sundstorm91.github.io/spa-own/',
       repo: 'https://github.com/sundstorm91/spa-own',
     },
     {
-      title: 'Node-express-blog+',
+      title: 'Node-express-blog',
       description: 'Простой блог с CRUD-операциями, MVC-структурой, хранением данных в JSON-файле и шаблонизацией на EJS. Первый опыт работы с серверной разработкой.',
       stack: 'Node.js + Express, EJS, Typescript, REST API',
       demo: null,
       repo: 'https://github.com/sundstorm91/node-express-blog',
     },
     {
-      title: 'Async Race(задеплоил - фронт, проверь дома с бэком)',
-      description: 'Гоночное приложение с управлением машинами, победителями и таблицей рекордов.',
-      stack: 'JS, CSS, REST API',
+      title: 'Async-race',
+      description: 'Гоночное приложение с управлением машинами, победителями и таблицей рекордов. Таск направлен на понимание асинхронности (Promise.race, параллельные запросы, обработка ошибок API). Бонусом приложение построено на модульной архитектуре с однонаправленным потоком данных, за основу которой взят React-подход (StateManager, EventBus, компонентный UI), но без Virtual DOM и самого фреймворка.',
+      stack: 'TypeScript, Vite, REST API, Promise.race(), requestAnimationFrame',
       demo: 'https://sundstorm91.github.io/async-race/',
       repo: 'https://github.com/sundstorm91/async-race',
     },
