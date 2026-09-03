@@ -5,11 +5,15 @@ import { Projects }from './components/Projects/Projects';
 import { Contacts } from './components/Contacts/Contacts';
 import { Footer } from './components/Footer/Footer';
 import './App.css';
+import { useLanguage } from './context/LanguageContext';
+
 
 function App() {
+  const {lang, toggleLang} = useLanguage()
+
   return (
     <div className="app">
-      <Header />
+      <Header lang={lang} toggleLang={toggleLang} />
       <main>
         <About />
         <Stack />

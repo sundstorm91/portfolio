@@ -1,6 +1,10 @@
 import './Stack.css';
-
+import { useLanguage } from '../../context/LanguageContext'
+import { translations } from '../../locales/translations'
 export function Stack() {
+  const {lang, toggleLang} = useLanguage()
+  const t = translations[lang].stack
+
   const technologies = [
     { name: 'React', icon: '⚛️' },
     { name: 'TypeScript', icon: '🟦' },
@@ -19,7 +23,7 @@ export function Stack() {
   return (
     <section id="stack" className="stack">
       <div className="stack__container">
-        <h2 className="stack__title">Технологии</h2>
+        <h2 className="stack__title">{t.title}</h2>
         <div className="stack__grid">
           {technologies.map((tech) => (
             <div key={tech.name} className="stack__item">

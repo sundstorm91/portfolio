@@ -6,7 +6,7 @@ export function Footer() {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__profiles">
-          <a href="https://www.codewars.com/users/sundstorm91" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.codewars.com/users/rsschool_f253c31d76684534" target="_blank" rel="noopener noreferrer">
             Codewars
           </a>
           <a href="https://leetcode.com/u/sundstorm91/" target="_blank" rel="noopener noreferrer">
