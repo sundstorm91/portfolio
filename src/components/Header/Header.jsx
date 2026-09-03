@@ -5,7 +5,7 @@ export function Header() {
     <header className="header">
       <div className="header__container">
         <h1 className="header__title">Aleksandr</h1>
-        <p className="header__subtitle">Frontend Developer</p>
+        <p className="header__subtitle">React Developer</p>
       </div>
       <nav className="header__nav">
         <a href="#about">Обо мне</a>

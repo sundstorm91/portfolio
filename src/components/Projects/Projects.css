@@ -15,7 +15,9 @@
   border-bottom: 3px solid #f39c12;
   padding-bottom: 8px;
   display: inline-block;
+  color: #2c2c50;
 }
+
 
 .projects__grid {
   display: grid;

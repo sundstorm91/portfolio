@@ -15,9 +15,9 @@ export function Contacts() {
           <a href="mailto:sundstorm91@gmail.com" className="contacts__link">
             📧 Email
           </a>
-          <a href="https://www.linkedin.com/in/aleksandr-sund-919974277/" target="_blank" rel="noopener noreferrer" className="contacts__link">
+          {/* <a href="https://www.linkedin.com/in/aleksandr-sund-919974277/" target="_blank" rel="noopener noreferrer" className="contacts__link">
             🔗 LinkedIn
-          </a>
+          </a> */}
         </div>
       </div>
     </section>

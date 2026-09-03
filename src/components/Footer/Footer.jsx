@@ -1,17 +1,23 @@
+// src/components/Footer.jsx
 import './Footer.css';
 
 export function Footer() {
   return (
     <footer className="footer">
       <div className="footer__container">
-        <p>© {new Date().getFullYear()} Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam, ad.</p>
-        <p>
-          <a href="https://github.com/sundstorm91" target="_blank" rel="noopener noreferrer">
-            GitHub
+        <div className="footer__profiles">
+          <a href="https://www.codewars.com/users/sundstorm91" target="_blank" rel="noopener noreferrer">
+            Codewars
           </a>
-        </p>
+          <a href="https://leetcode.com/u/sundstorm91/" target="_blank" rel="noopener noreferrer">
+            Leetcode
+          </a>
+        </div>
+        <p>© {new Date().getFullYear()}</p>
+        <a href="https://github.com/sundstorm91" target="_blank" rel="noopener noreferrer">
+          🐙 GitHub
+        </a>
       </div>
     </footer>
   );
 }
-
