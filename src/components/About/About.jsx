@@ -15,7 +15,7 @@ export function About() {
            {t.text}
           </div>
           <div className="about__photo">
-            <div className="about__photo-placeholder">📸</div>
+            <div className="about__photo-placeholder">🧑‍💻</div>
           </div>
         </div>
       </div>

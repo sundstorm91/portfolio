@@ -6,7 +6,7 @@ export const translations = {
     },
     about: {
       title: 'Обо мне',
-      text: 'Привет! Я Александр — React-разработчик. Создаю интерфейсы, которые решают задачи и приятны глазу.',
+      text: 'React-разработчик с фокусом на Typescript и архитектуру. Люблю разбираться в технологиях и создавать чистые и поддерживаемые интерфейсы. Ищу команду чтобы расти профессионально и решать реальные задачи',
     },
     stack: {
       title: 'Технологии',
@@ -121,7 +121,7 @@ export const translations = {
     },
     about: {
       title: 'About Me',
-      text: "Hi! I'm Aleksandr — React Developer. Building interfaces that solve problems and look great.",
+      text: "A React developer focused on Typescript and architecture. I enjoy understanding technology and creating clean, maintainable interfaces. I'm looking for a team to grow professionally and solve real-world problems.",
     },
     stack: {
       title: 'Tech Stack',
