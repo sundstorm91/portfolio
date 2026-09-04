@@ -6,19 +6,24 @@ export function Stack() {
   const t = translations[lang].stack
 
   const technologies = [
-    { name: 'React', icon: '⚛️' },
-    { name: 'TypeScript', icon: '🟦' },
-    { name: 'JavaScript', icon: '🟨' },
-    { name: 'Next.js', icon: '▲' },
-    { name: 'Node.js', icon: '🟩' },
-    { name: 'Express', icon: '🚂' },
-    { name: 'MongoDB', icon: '🍃' },
-    { name: 'SQLite', icon: '🗄️' },
-    { name: 'Git', icon: '🐙' },
-    { name: 'Webpack', icon: '📦' },
-    { name: 'Vite', icon: '⚡' },
-    { name: 'Redux Toolkit', icon: '🔴' },
-  ];
+  { name: 'React', icon: '⚛️' },
+  { name: 'TypeScript', icon: '🟦' },
+  { name: 'JavaScript', icon: '🟨' },
+  { name: 'Next.js', icon: '▲' },
+  { name: 'Node.js', icon: '🟩' },
+  { name: 'Express', icon: '🚂' },
+  { name: 'SQLite', icon: '🗄️' },
+  { name: 'Git', icon: '🐙' },
+  { name: 'Webpack', icon: '📦' },
+  { name: 'Vite', icon: '⚡' },
+  { name: 'Redux Toolkit', icon: '🔴' },
+  { name: 'TanStack Query', icon: '📡' },
+  { name: 'React Hook Form', icon: '📝' },
+  { name: 'Zod', icon: '✅' },
+  { name: 'React Router v6', icon: '🧭' },
+  { name: 'Vitest / Jest', icon: '🧪' },
+  { name: 'Cypress', icon: '🎯' },
+];
 
   return (
     <section id="stack" className="stack">
