@@ -10,13 +10,15 @@ export function Stack() {
   { name: 'TypeScript', icon: '🟦' },
   { name: 'JavaScript', icon: '🟨' },
   { name: 'Next.js', icon: '▲' },
-  { name: 'Node.js', icon: '🟩' },
-  { name: 'Express', icon: '🚂' },
-  { name: 'SQLite', icon: '🗄️' },
+  { name: 'Tailwind CSS', icon: '🎨' },
+ /*  { name: 'JWT Auth', icon: '🔐' }, */
+  /* { name: 'Node.js', icon: '🟩' }, */
+ /*  { name: 'Express', icon: '🚂' }, */
+  { name: 'Prisma', icon: '🗄️' },
   { name: 'Git', icon: '🐙' },
   { name: 'Webpack', icon: '📦' },
   { name: 'Vite', icon: '⚡' },
-  { name: 'Redux Toolkit', icon: '🔴' },
+  { name: 'Redux', icon: '🔴' },
   { name: 'TanStack Query', icon: '📡' },
   { name: 'React Hook Form', icon: '📝' },
   { name: 'Zod', icon: '✅' },
