@@ -1,7 +1,7 @@
 .contacts {
   padding: 60px 40px;
-  background: #1e1e2f;
-  color: #fff;
+  background: #fff;
+  color: #1e1e2f;
 }
 
 .contacts__container {
@@ -11,6 +11,7 @@
 }
 
 .contacts__title {
+  color: #1e1e2f;
   font-size: 32px;
   margin-bottom: 24px;
   border-bottom: 3px solid #f39c12;
@@ -28,16 +29,17 @@
 
 .contacts__link {
   padding: 12px 24px;
-  background: rgba(255,255,255,0.08);
+  background: rgba(30, 30, 47, 0.08);
   border-radius: 8px;
-  color: #fff;
+  color: #1e1e2f;
   text-decoration: none;
   font-size: 18px;
-  transition: background 0.3s, transform 0.2s;
+  transition: background 0.3s, color 0.3s, transform 0.2s;
 }
 
 .contacts__link:hover {
   background: #f39c12;
+  color: #fff;
   transform: translateY(-3px);
 }
 

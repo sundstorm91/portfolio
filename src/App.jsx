@@ -6,6 +6,7 @@ import { Contacts } from './components/Contacts/Contacts';
 import { Footer } from './components/Footer/Footer';
 import './App.css';
 import { useLanguage } from './context/LanguageContext';
+import { Experience } from './components/Experience/Experience';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <About />
         <Stack />
         <Projects />
+        <Experience/>
         <Contacts />
       </main>
       <Footer />

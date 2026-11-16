@@ -6,7 +6,7 @@ export const translations = {
     },
     about: {
       title: 'Обо мне',
-      text: 'Frontend-разработчик (React/Typescript/Next.js). Практикуюсь в современном фронтенде в пет проектах: SPA на React, типизация, работа с API (REST, TanStack Query), авторизация (JWT), тесты (Vitest). Понимаю асинхронность, замыкания, Event Loop. Использую AI-инструменты для ускорения разработки и для пополнения стэка технологий. Ищу продуктовую команду, где смогу расти и решать реальные задачи. Готов учиться и брать ответственность',
+      text: 'Frontend-разработчик (React / TypeScript / Next.js). Разрабатываю веб-приложения в пет-проектах: проектирую SPA-интерфейсы, настраиваю интеграцию с API (REST, TanStack Query), JWT-авторизацию и покрываю логику тестами (Vitest). Использую AI-инструменты для ускорения разработки и освоения новых технологий. Ищу продуктовую команду, чтобы решать реальные задачи и расти профессионально.',
     },
     stack: {
       title: 'Технологии',
@@ -107,6 +107,12 @@ export const translations = {
         },
       ],
     },
+
+    experience: {
+      title: 'Опыт работы',
+      text: 'Начальник участка связи / Инженер по обслуживанию навигационного и связного оборудования (2013 — настоящее время, 13 лет; с 2023 г. — Начальник участка). Управляю технической эксплуатацией и монтажом критически важных систем связи и навигации, координирую работу команды. Провожу диагностику аппаратно-программных комплексов, работаю с публичными интерфейсами для настройки/калибровки радиооборудования (API оборудования).',
+      },
+
     contacts: {
       title: 'Контакты',
     },
@@ -121,7 +127,7 @@ export const translations = {
     },
     about: {
       title: 'About Me',
-      text: 'Frontend Developer (React/TypeScript/Next.js). I actively practice modern frontend development through pet projects, including React-based SPAs, implementing type safety, working with APIs (REST, TanStack Query), handling authentication (JWT), and writing tests (Vitest). I have a solid understanding of asynchronous programming, closures, and the Event Loop. I leverage AI tools to accelerate development and expand my technical skill set. I am looking to join a product-focused team where I can grow and tackle real-world challenges. I am eager to learn and ready to take on responsibility.',
+      text: 'Frontend Developer (React / TypeScript / Next.js). I build web applications through pet projects, where I design SPA interfaces, set up API integrations (REST, TanStack Query) and JWT-based authentication, and write tests (Vitest) for my logic. I leverage AI tools to accelerate development and master new technologies. I am looking to join a product-focused team where I can tackle real-world challenges and continue my professional growth.',
     },
     stack: {
       title: 'Tech Stack',
@@ -222,6 +228,12 @@ export const translations = {
         },
       ],
     },
+
+    experience: {
+      title: 'Experience',
+      text: 'Head of Communications Section / Maintenance Engineer for Navigation and Communication Equipment (2013–present, 13 years; Head of Section since 2023). I manage the technical operation and installation of mission-critical communication and navigation systems and coordinate the team’s work. I perform diagnostics on hardware-software systems and work with public interfaces (equipment APIs) to configure and calibrate radio equipment.',
+      },
+
     contacts: {
       title: 'Contacts',
     },
