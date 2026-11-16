@@ -6,7 +6,7 @@ export const translations = {
     },
     about: {
       title: 'Обо мне',
-      text: 'React-разработчик с фокусом на Typescript и архитектуру. Люблю разбираться в технологиях и создавать чистые и поддерживаемые интерфейсы. Ищу команду чтобы расти профессионально и решать реальные задачи',
+      text: 'Frontend-разработчик (React/Typescript/Next.js). Практикуюсь в современном фронтенде в пет проектах: SPA на React, типизация, работа с API (REST, TanStack Query), авторизация (JWT), тесты (Vitest). Понимаю асинхронность, замыкания, Event Loop. Использую AI-инструменты для ускорения разработки и для пополнения стэка технологий. Ищу продуктовую команду, где смогу расти и решать реальные задачи. Готов учиться и брать ответственность',
     },
     stack: {
       title: 'Технологии',
@@ -14,7 +14,7 @@ export const translations = {
     projects: {
       title: 'Проекты',
       list: [
-        {
+        /* {
           title: 'Minesweeper',
           description: 'Классический сапёр на чистом JS с таймером и таблицей лидеров.',
           stack: 'JS, CSS, Webpack',
@@ -62,7 +62,7 @@ export const translations = {
           stack: 'TypeScript, DOM API',
           demo: 'https://sundstorm91.github.io/virtual-keyboard-TS/',
           repo: 'https://github.com/sundstorm91/virtual-keyboard-TS',
-        },
+        }, */
         {
           title: 'Stellar Burger',
           description: 'SPA для заказа бургеров с авторизацией и лентой заказов.',
@@ -84,20 +84,20 @@ export const translations = {
           demo: null,
           repo: 'https://github.com/sundstorm91/taskflow',
         },
-        {
+        /* {
           title: 'SPA на чистом JS',
           description: 'Одностраничное приложение с роутером, состоянием и компонентами без фреймворков.',
           stack: 'JS, TypeScript, Webpack',
           demo: 'https://sundstorm91.github.io/spa-own/',
           repo: 'https://github.com/sundstorm91/spa-own',
-        },
-        {
+        }, */
+        /* {
           title: 'Node.js блог',
           description: 'Блог с CRUD-операциями, MVC-структурой и шаблонизацией на EJS.',
           stack: 'Node.js, Express, EJS, REST API',
           demo: null,
           repo: 'https://github.com/sundstorm91/node-express-blog',
-        },
+        }, */
         {
           title: 'Async Race',
           description: 'Гоночное приложение с управлением машинами, победителями и таблицей рекордов. Реализовано на модульной архитектуре, вдохновлённой React-подходом.',
@@ -121,7 +121,7 @@ export const translations = {
     },
     about: {
       title: 'About Me',
-      text: "A React developer focused on Typescript and architecture. I enjoy understanding technology and creating clean, maintainable interfaces. I'm looking for a team to grow professionally and solve real-world problems.",
+      text: 'Frontend Developer (React/TypeScript/Next.js). I actively practice modern frontend development through pet projects, including React-based SPAs, implementing type safety, working with APIs (REST, TanStack Query), handling authentication (JWT), and writing tests (Vitest). I have a solid understanding of asynchronous programming, closures, and the Event Loop. I leverage AI tools to accelerate development and expand my technical skill set. I am looking to join a product-focused team where I can grow and tackle real-world challenges. I am eager to learn and ready to take on responsibility.',
     },
     stack: {
       title: 'Tech Stack',
@@ -129,7 +129,7 @@ export const translations = {
     projects: {
       title: 'Projects',
       list: [
-        {
+        /* {
           title: 'Minesweeper',
           description: 'Classic Minesweeper on pure JS with timer and leaderboard.',
           stack: 'JS, CSS, Webpack',
@@ -177,7 +177,7 @@ export const translations = {
           stack: 'TypeScript, DOM API',
           demo: 'https://sundstorm91.github.io/virtual-keyboard-TS/',
           repo: 'https://github.com/sundstorm91/virtual-keyboard-TS',
-        },
+        }, */
         {
           title: 'Stellar Burger',
           description: 'SPA for ordering burgers with auth and real-time order feed.',
@@ -199,20 +199,20 @@ export const translations = {
           demo: null,
           repo: 'https://github.com/sundstorm91/taskflow',
         },
-        {
+        /* {
           title: 'SPA on Vanilla JS',
           description: 'Single-page app with router, state and components — no frameworks.',
           stack: 'JS, TypeScript, Webpack',
           demo: 'https://sundstorm91.github.io/spa-own/',
           repo: 'https://github.com/sundstorm91/spa-own',
-        },
-        {
+        }, */
+        /* {
           title: 'Node.js Blog',
           description: 'Blog with CRUD, MVC structure and EJS templating.',
           stack: 'Node.js, Express, EJS, REST API',
           demo: null,
           repo: 'https://github.com/sundstorm91/node-express-blog',
-        },
+        }, */
         {
           title: 'Async Race',
           description: 'Racing app with car management, winners and leaderboard. Built on modular architecture inspired by React patterns.',

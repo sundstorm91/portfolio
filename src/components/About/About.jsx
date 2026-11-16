@@ -3,7 +3,7 @@ import { translations } from '../../locales/translations'
 import { useLanguage } from '../../context/LanguageContext'
 export function About() {
 
-  const { lang, toggleLang } = useLanguage()
+  const { lang,} = useLanguage()
   const t = translations[lang].about
 
   return (
